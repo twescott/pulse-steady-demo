@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/pulse-steady-demo/sw.js', { scope: '/pulse-steady-demo/' })})}
